@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "gescom2",
+  "outputfilename": "gescom2",
+  "frontend:install": "bun install",
+  "frontend:build": "bun run build",
+  "frontend:dev:watcher": "bun run dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir":"./frontend/src/lib",
+  "author": {
+    "name": "moschetti1",
+    "email": "francisco.moschetti@gmail.com"
+  }
+}
